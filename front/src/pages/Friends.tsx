@@ -1,7 +1,7 @@
-import React from "react";
+import React, { FC } from "react";
 
-const Friends = () => {
+const FriendsPage: FC = () => {
   return <div>Friends</div>;
 };
 
-export default Friends;
+export default FriendsPage;

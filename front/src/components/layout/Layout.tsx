@@ -8,7 +8,7 @@ const Layout: FC<PropsWithChildren> = (props) => {
     <div className={classes.layout}>
       <main>
         <Navbar />
-        {props.children}
+        <div>{props.children}</div>
       </main>
     </div>
   );

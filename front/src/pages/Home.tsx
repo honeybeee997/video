@@ -1,7 +1,8 @@
-import React from "react";
+import { FC } from "react";
+import Home from "../components/pages/Home/Index";
 
-const Home = () => {
-  return <div>Home</div>;
+const HomePage: FC = () => {
+  return <Home />;
 };
 
-export default Home;
+export default HomePage;

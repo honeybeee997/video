@@ -1,0 +1,46 @@
+.cards {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 10px;
+}
+
+.cards > article {
+  flex: 1 1 45%;
+}
+
+.card {
+  background-color: var(--clrPrimary);
+  color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.card h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.card div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.card span {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: var(--clrPrimary);
+  border-radius: 50%;
+  font-size: 2rem;
+}
+
+.card p {
+  text-align: right;
+  font-size: 2rem;
+}

@@ -1,7 +1,7 @@
-import React from "react";
+import React, { FC } from "react";
 
-const Notifiactions = () => {
+const NotifiactionsPage: FC = () => {
   return <div>Notifiactions</div>;
 };
 
-export default Notifiactions;
+export default NotifiactionsPage;

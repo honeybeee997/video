@@ -1,7 +1,7 @@
-import React from "react";
+import { FC } from "react";
 
-const Video = () => {
+const VideoPage: FC = () => {
   return <div>Video</div>;
 };
 
-export default Video;
+export default VideoPage;
